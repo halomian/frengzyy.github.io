@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Formulir Pendaftaran </h2>
+        <form action="#" method="POST">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap Anda" required>
+            
+            <label for="alamat">Alamat:</label>
+            <input type="alamat" id="alamat" name="alamat" placeholder="Masukkan Alamat Lengkap Anda">
+            
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan Email Anda" required>
+            
+            <label for="telepon">Nomor Telepon:</label>
+            <input type="tell" id="telepon" name="telepon" placeholder="Masukkan Nomor Telepon Anda" required>
+            
+            <label for="password">Kata Sandi:</label>
+            <input type="password" id="password" name="password" placeholder="Masukkan Kata Sandi Anda" required>
+            
+            <label for="konfirmasi-password">Konfirmasi Kata Sandi:</label>
+            <input type="password" id="konfirmasi-password" name="konfirmasi-password" placeholder="Konfirmasi Kata Sandi Anda" required>
+            
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender" name="gender" required>
+                <option value="">--Pilih Jenis Kelamin--</option>
+                <option value="pria">Pria</option>
+                <option value="wanita">Wanita</option>
+            </select>
+            
+            <input type="submit" value="Daftar">
+        </form>
+    </div>
+</body>
+</html>
